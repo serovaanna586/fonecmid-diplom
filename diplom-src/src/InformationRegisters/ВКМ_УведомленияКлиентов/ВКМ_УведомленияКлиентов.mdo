@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e6f67cd-0a16-42cf-a947-ff20f320ba6f">
+  <producedTypes>
+    <selectionType typeId="11a85024-fe4a-4934-9562-3df0bb83375b" valueTypeId="79f0f75a-53c3-469a-a3a4-4b5e8ab967e3"/>
+    <listType typeId="d018a681-03a7-4c1d-81f3-4b6ad01a237a" valueTypeId="bf8ec7a6-fca2-4d98-9719-43faa055ef90"/>
+    <managerType typeId="a3793a76-eda2-4f98-8e75-cf307a96cfd8" valueTypeId="f637d6da-3d12-4a22-8d08-29ac670c5aef"/>
+    <recordSetType typeId="f60c61d7-7ef6-4b90-85fe-87c1e0381766" valueTypeId="b98a4e5b-9bbf-45ae-bde7-6b283d96dfdc"/>
+    <recordKeyType typeId="ef646ec4-6ca9-4194-bd23-0f436b39356b" valueTypeId="b4c4eeb5-649f-47ff-b72a-62696cec2fcc"/>
+    <recordType typeId="b4a172e8-3249-45e4-9052-31dc65948814" valueTypeId="10fdb718-7fca-433d-94e6-db240050c4d4"/>
+    <recordManagerType typeId="e52ec111-b352-484b-8b28-6ac71afd46ce" valueTypeId="7eae7074-811b-4e2c-9906-6c8f6039c85a"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления клиентов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="6ebb6135-095a-4396-9dd7-fac60ba77794">
+    <name>Уведомление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

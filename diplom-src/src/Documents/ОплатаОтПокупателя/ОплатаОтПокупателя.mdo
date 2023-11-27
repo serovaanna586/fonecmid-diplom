@@ -72,6 +72,7 @@
   <defaultListForm>Document.ОплатаОтПокупателя.Form.ФормаСписка</defaultListForm>
   <registerRecords>AccumulationRegister.ОбработкаЗаказов</registerRecords>
   <registerRecords>AccumulationRegister.ЗадолженностьПокупателей</registerRecords>
+  <registerRecords>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="ffb63700-9850-4f22-9f60-d68701c162e8">

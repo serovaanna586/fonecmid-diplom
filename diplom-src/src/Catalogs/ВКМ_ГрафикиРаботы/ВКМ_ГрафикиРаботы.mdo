@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d799d6d5-99c3-4cac-a964-c9e87fe03e64">
+  <producedTypes>
+    <objectType typeId="ccd4787f-9999-4355-a962-e141061637bc" valueTypeId="8d665422-ae25-4e79-8106-6e580497c6b1"/>
+    <refType typeId="79e61b29-6e29-4527-b26c-e1a7639cb234" valueTypeId="53ad45b8-b354-4540-b7e2-319b3a10b5fe"/>
+    <selectionType typeId="b22304b3-a4a6-453a-a2c4-0f88bf4ab78c" valueTypeId="c4a5d4b4-487e-488a-b06c-d063a957e811"/>
+    <listType typeId="a0cee5c1-7377-4fbe-9b62-be1e56cf6c30" valueTypeId="00ebff8d-cc39-46b3-8bb5-b76483e55ca9"/>
+    <managerType typeId="92487ba8-f86e-4f83-bbd8-223d22513792" valueTypeId="31877940-d222-4ccf-9dd7-494284ae52f4"/>
+  </producedTypes>
+  <name>ВКМ_ГрафикиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Графики работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВКМ_ГрафикиРаботы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВКМ_ГрафикиРаботы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВКМ_ГрафикиРаботы.Form.ФормаСписка</defaultListForm>
+  <forms uuid="2406243f-43f2-4b43-815a-b12b371f043a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f500a02a-a2b9-4a11-a9bf-82a2cb3493a1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

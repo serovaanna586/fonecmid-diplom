@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12731999-d5dd-4915-a33e-3cc8d84d024a">
+  <producedTypes>
+    <objectType typeId="008b86e2-c787-4675-b08e-05d48602967b" valueTypeId="fc932b70-a56f-4b63-8a68-3007420f2416"/>
+    <refType typeId="1ec7082b-319b-41c1-bc95-fecb9d7457eb" valueTypeId="9592a15c-1ae8-4ffa-ab0c-c76c1d685839"/>
+    <selectionType typeId="118df9c8-8d92-4ce2-be24-af953794011f" valueTypeId="9add3a5b-a3ba-4163-9646-f3817c0ba17c"/>
+    <listType typeId="9881b8eb-b119-4d5a-8331-9cbbc6a097a8" valueTypeId="d7a37cbc-e3dc-4ab4-8ae4-4b415d09272d"/>
+    <managerType typeId="652e92dd-c206-4971-b6ec-9bbee657c38b" valueTypeId="7bf84f0a-f0a4-4788-9813-cccdb35a51b1"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТГБот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления ТГБот</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1118724a-4df2-42ca-a2af-b6a24672179e">
+    <name>Текст</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
